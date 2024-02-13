@@ -8,22 +8,24 @@ p, ol{
     color: white;
 }
 
-img{
-                
-    width: 25%;
-
-}
-
 body{
 
     background: black;
+
+}
+main{
+  background: rgb(0, 0, 0);
+  
+/*  make 2 columns  */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 
 }
 article{
     background: rgb(0, 0, 0);
     padding: 2em;
   /*  verticle center and horizontal center  */
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
