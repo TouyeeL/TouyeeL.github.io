@@ -3,27 +3,23 @@ h1{
     color: white;
 }
 
-p, ol{
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-}
-
 body{
 
     background: black;
-
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 main{
   background: rgb(0, 0, 0);
   
 /*  make 2 columns  */
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
 
 }
 article{
     background: rgb(0, 0, 0);
-    padding: 2em;
+    padding: 1.25rem;
   /*  verticle center and horizontal center  */
     display: grid;
     flex-direction: column;
@@ -38,6 +34,6 @@ aside img{
       max-width: 100%;
       /*  full height img  */
       height: 100vh;
-      object-fit: fill;
+      object-fit: cover;
       
     }
