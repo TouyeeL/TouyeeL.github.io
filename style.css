@@ -38,6 +38,7 @@ aside img{
   
     /*  fit image to container  */
       display: inline;
+      
       max-width: 100%;
       /*  full height img  */
       height: 100vh;
